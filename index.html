@@ -20,6 +20,21 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <script>
+      (function (s, e, n, d, er) {
+        s['Sender'] = er;
+        s[er] = s[er] || function () {
+          (s[er].q = s[er].q || []).push(arguments)
+        }, s[er].l = 1 * new Date();
+        var a = e.createElement(n),
+            m = e.getElementsByTagName(n)[0];
+        a.async = 1;
+        a.src = d;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+      sender('f01ec9ce762528')
+    </script>
     
   </head>
   <body>
@@ -84,7 +99,7 @@
                 <li><a href="shop.html"><span class="icon-shop"></span> Shop (Coming Soon)</a></li>
                 <li><a href="nakiso.html"><span class="icon-person"></span> Nakiso</a></li>
                 <li><a href="nocktik.html"><span class="icon-person"></span> Nocktik</a></li>
-                <li><a href="about.html"><span class="icon-help"></span> About</a></li>
+                <li><a href="about.html"><span class="icon-help"></span> About us</a></li>
                 <li><a href="contact.html"><span class="icon-link"></span> Contact us</a></li>
               </ul>
           </nav>
@@ -241,7 +256,7 @@
 
 
       </div>
-
+      
       <!-- <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -259,7 +274,7 @@
           </div>
         </div>
       </div> -->
-      
+
     </div>
 
     <div class="site-section">
@@ -484,6 +499,12 @@
                   <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter your email here..." aria-label="Enter Email" aria-describedby="button-addon2">
                   <div class="input-group-append">
                     <button class="btn btn-primary" type="button" id="button-addon2">Send</button>
+                    <script>
+                      document.getElementById("button-addon2").addEventListener("click", myFunction);  
+                      function myFunction() {  
+                        window.location.href="https://stats.sender.net/forms/aAr97b/view";  
+                      }
+                    </script>
                   </div>
                 </div>
               </form>
@@ -604,7 +625,13 @@
                 <div class="input-group mb-3">
                   <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter your email here..." aria-label="Enter Email" aria-describedby="button-addon2">
                   <div class="input-group-append">
-                    <button class="btn btn-primary" type="button" id="button-addon2">Send</button>
+                    <button class="btn btn-primary" type="button" id="button-addon3">Send</button>
+                    <script>
+                      document.getElementById("button-addon3").addEventListener("click", myFunction);  
+                      function myFunction() {  
+                        window.location.href="https://stats.sender.net/forms/aAr97b/view";  
+                      }
+                    </script>
                   </div>
                 </div>
               </form>
