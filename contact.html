@@ -20,6 +20,21 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+
+    <script>
+      (function (s, e, n, d, er) {
+        s['Sender'] = er;
+        s[er] = s[er] || function () {
+          (s[er].q = s[er].q || []).push(arguments)
+        }, s[er].l = 1 * new Date();
+        var a = e.createElement(n),
+            m = e.getElementsByTagName(n)[0];
+        a.async = 1;
+        a.src = d;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+      sender('f01ec9ce762528')
+    </script>
     
   </head>
   <body>
@@ -77,13 +92,12 @@
                     <li><a href="#">Menu Three</a></li>
                   </ul>
                 </li> -->
-                <li><a href="index.html"><span class="icon-home"> Home</span></a></li>
-                <li><a href="music.html"><span class="icon-music"> Music</span></a></li>
-                <li><a href="mixes.html"><span class="icon-music"> Mixes</span></a></li>
-                <li><a href="shop.html"><span class="icon-shop"> Shop (Coming Soon)</span></a></li>
-                <li><a href="nakiso.html"><span class="icon-person"> Nakiso</span></a></li>
-                <li><a href="nocktik.html"><span class="icon-person"> Nocktik</span></a></li>
-                <li><a href="about.html"><span class="icon-info"> About us</span></a></li>
+                <li><a href="index.html"><span class="icon-home"></span> Home</a></li>
+                <li><a href="mixes.html"><span class="icon-music"></span> Music</a></li>
+                <li><a href="shop.html"><span class="icon-shop"></span> Shop (Coming Soon)</a></li>
+                <li><a href="nakiso.html"><span class="icon-person"></span> Nakiso</a></li>
+                <li><a href="nocktik.html"><span class="icon-person"></span> Nocktik</a></li>
+                <li><a href="about.html"><span class="icon-help"></span> About us</a></li>
                 <!-- <li><a href="contact.html"><span class="icon-phone"> Contact us</span></a></li> -->
               </ul>
           </nav>
@@ -163,11 +177,11 @@
 
               <p class="mb-0">Socials</p>
               <p class="mb-0">
-              <a href="https://instagram.com/themendists" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a></p>
-              <a href="https://www.facebook.com/TheMendists" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a></p>
-              <a href="https://www.youtube.com/channel/UCIxHhHFbskAbYU81AdqqVfQ" target="_blank" class="pl-0 pr-3"><span class="icon-youtube"></span></a></p>
-              <a href="https://themendists.bandcamp.com/" target="_blank" class="pl-0 pr-3"><span class="icon-bandcamp"></span></a></p>
-              <a href="https://open.spotify.com/artist/0x2n6hbpnHS0RPUWpAoOQx" target="_blank" class="pl-0 pr-3"><span class="icon-spotify"></span></a></p>
+              <a href="https://instagram.com/themendists" target="_blank" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <a href="https://www.facebook.com/TheMendists" target="_blank" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+              <a href="https://www.youtube.com/channel/UCIxHhHFbskAbYU81AdqqVfQ" target="_blank" class="pl-0 pr-3"><span class="icon-youtube"></span></a>
+              <a href="https://themendists.bandcamp.com/" target="_blank" class="pl-0 pr-3"><span class="icon-bandcamp"></span></a>
+              <a href="https://open.spotify.com/artist/0x2n6hbpnHS0RPUWpAoOQx" target="_blank" class="pl-0 pr-3"><span class="icon-spotify"></span></a>
               <a href="https://music.apple.com/mz/artist/the-mendists/1632213099" target="_blank" class="pl-0 pr-3"><span class="icon-apple"></span></a></p>
               </p>
 
@@ -191,6 +205,12 @@
                   <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
                   <div class="input-group-append">
                     <button class="btn btn-primary" type="button" id="button-addon2">Send</button>
+                    <script>
+                      document.getElementById("button-addon2").addEventListener("click", myFunction);  
+                      function myFunction() {  
+                        window.location.href="https://stats.sender.net/forms/aAr97b/view";  
+                      }
+                    </script>
                   </div>
                 </div>
               </form>
@@ -310,7 +330,13 @@
                 <div class="input-group mb-3">
                   <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
                   <div class="input-group-append">
-                    <button class="btn btn-primary" type="button" id="button-addon2">Send</button>
+                    <button class="btn btn-primary" type="button" id="button-addon3">Send</button>
+                    <script>
+                      document.getElementById("button-addon3").addEventListener("click", myFunction);  
+                      function myFunction() {  
+                        window.location.href="https://stats.sender.net/forms/aAr97b/view";  
+                      }
+                    </script>
                   </div>
                 </div>
               </form>
