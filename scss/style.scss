@@ -22,10 +22,25 @@ a {
   transition: 0.3s all ease;
 }
 
-a:hover {
-  text-decoration: none;
-}
+/* a:hover {
+  text-decoration: none; }
 
+  a:link {
+    text-decoration: underline;
+    text-decoration-color: #1B1B1B;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:before{
+    text-decoration: none;
+  } */
 .text-black {
   color: #000 !important;
 }
@@ -698,10 +713,12 @@ a:hover {
 }
 
 .team-member {
-  position: relative;
+  position: sticky;
   float: left;
   width: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .team-member img {
@@ -720,7 +737,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(242, 58, 46, 0.8);
+  background: rgba(27, 27, 27, 0.8);
   z-index: 2;
   height: 100%;
   width: 100%;
